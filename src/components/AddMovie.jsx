@@ -37,7 +37,7 @@ const AddMovie = ({add}) => {
       name,
       rating,
       date,
-      image
+      image,
     }
     add(newMovie)
     closeModal()
